@@ -206,6 +206,7 @@ async def generate_node(state: State) -> State:
 # 反思节点：评估生成结果的准确性
 async def reflection_node(state: State) -> State:
     print("执行反思节点，评估生成结果...")
+    print(f"data：{state['messages'][0]}")
     # 创建消息类型映射，用于角色互换
     cls_map = {"ai": HumanMessage, "human": AIMessage}
     

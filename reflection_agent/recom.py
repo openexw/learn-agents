@@ -6,9 +6,9 @@ from langgraph.checkpoint.memory import InMemorySaver
 import json
 import asyncio
 from langgraph.graph import StateGraph, START, END
-from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.messages import HumanMessage, AIMessage,SystemMessage
-from  langchain_community.chat_models import ChatOpenAI
+from langchain.chat_models import init_chat_model
 
 load_dotenv()
 
@@ -150,29 +150,41 @@ eval_as_a_judge = """
 - 🚫 严禁因‘带壳鸡蛋’而误判为‘生鸡蛋’
 """
 
-chat_model = ChatOpenAI(
+
+chat_model = init_chat_model(
+    model="qwen3-vl-plus",
     api_key=os.getenv("DASHSCOPE_API_KEY"),
     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
-    model="qwen3-vl-plus",
+    model_provider="openai",
 )
 
-generate_prompt = ChatPromptTemplate.from_messages([
-         SystemMessage(content=sys_prompt),
-         MessagesPlaceholder(variable_name="messages"),
+# 在新版 langchain 中，直接传递消息列表而不需要 MessagesPlaceholder
+def create_generate_prompt(messages):
+    return [
+        SystemMessage(content=sys_prompt),
+        *messages  # 直接展开消息列表
     ]
-)
-generate =  generate_prompt|chat_model
+
+# 使用 RunnableLambda 来创建生成链
+def create_prompt_with_messages(messages):
+    return create_generate_prompt(messages)
+
+from langchain_core.runnables import RunnableLambda
+
+generate = RunnableLambda(create_prompt_with_messages) | chat_model
 
 # generate_val = generate.invoke({"messages": [user_topic]})
 # print(generate_val)
 
 ## 反思
-reflection_prompt = ChatPromptTemplate.from_messages(
-    [
+# 为反思链创建提示
+def create_reflection_prompt(messages):
+    return [
         SystemMessage(content=eval_as_a_judge),
-        MessagesPlaceholder(variable_name="messages"),
+        *messages  # 直接展开消息列表
     ]
-)
+
+reflection = RunnableLambda(create_reflection_prompt) | chat_model
 img_url = "https://mass.alipay.com/medaicore/afts/img/TRFnRar_PfMAAAAAgFAAAAgAomLnAABr/original?t=pLn5riBele9cFgwvANR3Xey2XWIf4eabWPXh7LmcuvEDAAAAZAAA52JpGYlA"
 # generate_human = HumanMessage(content=generate_val.content)
 reflection_user = HumanMessage(content=[
@@ -281,3 +293,5 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+

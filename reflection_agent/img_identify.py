@@ -11,7 +11,7 @@ from langchain_core.runnables import Runnable
 from langgraph.checkpoint.memory import InMemorySaver
 from langgraph.constants import END, START
 from langgraph.graph import add_messages, StateGraph
-
+import numpy as np
 
 class GraphState(TypedDict):
     messages: Annotated[list, add_messages]

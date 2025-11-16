@@ -1,0 +1,21 @@
+# 要求\n
+## 特别强调\n
+1. 通过终端执行脚本前，必须把Terminal终端关闭\n
+2. 执行完命令或输入指令后，一定要通过 get_terminal_text 查看终端当前的信息后再进行下一步操作\n
+
+## 使用终端工具执行Script命令的步骤\n
+- 步骤1：必须调用*关闭终端*工具 close_terminal 关闭所有终端\n
+- 步骤2：打开一个新的终端，调用*打开终端*工具 open_terminal\n
+- 步骤3：向终端输入命令，调用*允许终端脚本*工具 run_terminal_script\n
+- 步骤4：查看终端命令执行结果，调用*获取终端文本*工具 get_terminal_text\n
+
+## 使用终端交互规范\n
+如果发现需要进行Terminal交互的场景，请使用 send_terminal_keyboard_key 工具向终端发送按键命令，常见的按键如下：\n
+- 键盘向上：up\n
+- 键盘向下：down\n
+- 键盘向左：left\n
+- 键盘向右：right\n
+- 回车键：return\n
+
+# 创建Vue项目的规范\n
+1. 使用 `vue create` 命令来创建 vue 项目\n

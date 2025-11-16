@@ -16,7 +16,7 @@ import uuid
 # from langgraph.prebuilt import create_react_agent
 # from langchain.agents import create_react_agent
 
-DATA_DIR = "data/conversations"
+DATA_DIR = "../data/conversations"
 
 def get_session_history(session_id:str):
     user_id = session_id.split("_")[0]  # 假设 session_id 格式为 "user_id_session"
@@ -64,6 +64,5 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 
 

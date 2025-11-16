@@ -1,0 +1,14 @@
+[project]
+name = "agent-by-imooc"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "grandalf>=0.8",
+    "langchain==0.2",
+    "langchain-community>=0.2.4",
+    "langchain-openai>=0.1.25",
+    "pydantic>=2.12.4",
+]

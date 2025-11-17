@@ -5,7 +5,7 @@ from langchain_community.agent_toolkits.file_management import FileManagementToo
 from langchain_core.runnables import RunnableWithMessageHistory, RunnableConfig
 from langchain_core.messages import HumanMessage
 
-DATA_DIR = "../data/conversations"
+DATA_DIR = "data/conversations"
 
 def create_agent():
     mem = MemorySaver()

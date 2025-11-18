@@ -2,7 +2,8 @@ from langgraph.prebuilt import create_react_agent
 from langgraph.checkpoint.memory import MemorySaver
 from pkg.chat_model.qwen import chat_model
 from langchain_community.agent_toolkits.file_management import FileManagementToolkit
-from langchain_core.runnables import RunnableWithMessageHistory, RunnableConfig
+
+from langchain_core.runnables import RunnableConfig
 from langchain_core.messages import HumanMessage
 
 DATA_DIR = "../data/conversations"
@@ -22,8 +23,8 @@ def run_agent():
     config = RunnableConfig(configurable={"thread_id": 1})
     agent = create_agent()
 
-    res = agent.invoke(input={"messages": [HumanMessage("帮我创建一个 a.json 的文件")]}, config=config)
-    print(res)
+    res = agent.invoke(input={"messages": [("user", "我是Sam")]}, config=config)
+    res = agent.invoke(input={"messages": [("user", "我是谁？")]}, config=config)
 
 
 if __name__ == "__main__":

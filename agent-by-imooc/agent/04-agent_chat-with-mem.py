@@ -10,7 +10,7 @@ DATA_DIR = "../data/conversations"
 
 def create_agent():
     file_tools = FileManagementToolkit(root_dir=DATA_DIR).get_tools()
-    with RedisSaver.from_conn_string("redis://127.0.0.1:6379") as mem:
+    with RedisSaver.from_conn_string("redis://localhost:6379") as mem:
         agent = create_react_agent(
             model=chat_model,
             tools=file_tools,

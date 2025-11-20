@@ -248,21 +248,32 @@ class ImageIdentifyAgent:
 
     # 条件函数：控制Reflection模型的核心逻辑
     def decide_next_step(self, state: GraphState) -> str:
-        # 打印当前状态用于调试
-        print(f"决策状态: 反思={state['reflection_state']}, 消息数量={len(state['messages'])}")
-
+        # 详细打印当前状态用于调试
+        print(f"=== 决策节点状态信息 ===")
+        print(f"反思状态: {state['reflection_state']}")
+        print(f"消息数量: {len(state['messages'])}")
+        print(f"生成次数: {state.get('generate_count', 0)}")
+        print(f"最近生成内容: {state.get('generate_ret', '无')[:100]}..." if state.get('generate_ret') else "最近生成内容: 无")
+        if state['messages']:
+            print(f"消息类型: {type(state['messages'][-1]).__name__}")
+            if hasattr(state['messages'][-1], 'content'):
+                print(f"最新消息内容预览: {str(state['messages'][-1].content)[:100]}...")
+        print(f"========================")
+    
         # 终止条件：反思结果准确/不确定 或 达到最大轮数
-        if (state['reflection_state'] == "准确" or
-                state['reflection_state'] == "不确定" or
-                len(state["messages"]) > self.max_count):
+        if state['reflection_state'] == "准确" or state['reflection_state'] == "不确定":
+            print(f"触发终止条件，结束流程, 反思状态为'{state['reflection_state']}'")
+            return END
+        if   len(state["messages"]) > self.max_count:
+            print(f"触发终止条件，结束流程, 消息数量超过最大轮数{self.max_count}")
             return END
 
-        # 流转逻辑：
-        # 1. 如果反思状态为空，说明刚从generate节点出来，应该进入reflect节点
-        # 2. 如果反思状态为"不准确"，应该回到generate节点重新生成
-        if not state['reflection_state']:
-            return self.REFLECTION_NODE
+        # 流转逻辑
+        if state['reflection_state'] == "不准确" or state.get('generate_count', 0) == 0 :
+            print(f"反思状态为'{state['reflection_state']}'，执行GENERATE_NODE")
+            return self.GENERATE_NODE
         else:
+            print("反思状态为空，执行REFLECTION_NODE")
             return self.REFLECTION_NODE
 
     async def image_identify(self):
@@ -283,7 +294,7 @@ class ImageIdentifyAgent:
         builder.add_conditional_edges(self.GENERATE_NODE, self.decide_next_step)
 
         memory = InMemorySaver()
-        graph = builder.compile(checkpointer=memory)
+        graph = builder.compile(checkpointer=memory, name="图片识别v2")
         user_topic = HumanMessage(content=[
             {"type": "text",
              "text": "准确识别出图片具体是什么食物，评估这些食物的分量及热量。请注意，请根据输出规范输出食物数据，不要输出规范外的内容\n请注意: 不要输出' '等不明字符\n请注意: 仔细辨别食物，只输出图片中存在的食物"},

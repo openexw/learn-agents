@@ -1,0 +1,1005 @@
+img_url,input
+https://mass.alipay.com/medaicore/afts/img/DDqaTJCApZYAAAAAgDAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=6DBbfxzMBAWs_4doxCUW3N4PBzkjtKD2VoO86CXCHygDAAAAZAAA52Jpivbt,"{
+  ""result"": ""不准确"",
+  ""reason"": ""没有识别出食物的口味"",
+  ""real_food_list"": [
+    ""米多奇 烤香馍片香烤原味""
+  ],
+  ""bh_output"": [""米多奇烤香馍片""]
+}"
+https://mass.alipay.com/medaicore/afts/img/lSEnSJuFiIoAAAAAZeAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=ManjOdJNW_1J-2M-I53RaMVUIgwFwtd5tXwnGL0CQwgDAAAAZAAA52Jpivcw,"{
+  ""result"": ""不准确"",
+  ""reason"": ""AI未识别出“鸡胸肉卷饼”为复合食物整体，应整体标注而非拆分；煎豆腐块应为卷饼内馅，非独立菜品。"",
+  ""real_food_list"": [
+    ""鸡胸肉卷饼""
+  ],
+  ""bh_output"": [""生菜叶"",""紫甘蓝丝"",""胡萝卜丝"",""鸡胸肉卷饼"",""煎豆腐块""]
+}"
+https://mass.alipay.com/medaicore/afts/img/otdNSJbxCzoAAAAAAAAAAAAAomLnAABr/1024w_1024h_1l_60q_1fsa?t=M39Q3LXQzExdMDysEi0P6il9hOCUr24CUg_YBiezlNoDAAAAZAAA52Jpivbz,"{
+  ""result"": ""不准确"",
+  ""reason"": ""图片中的食物为馒头，模型识别为奶酪。"",
+  ""real_food_list"": [
+    ""馒头""
+  ],
+  ""bh_output"": [""奶酪""]
+}"
+https://mass.alipay.com/medaicore/afts/img/gny6RoyH8V8AAAAAgEAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=3467C_QHaumKsBA1DM1skhX4PPoMwYzCJ5A3laFEM0ADAAAAZAAA52Jpivb2,"{
+  ""result"": ""不准确"",
+  ""reason"": ""花生米识别错误，应识别为炸蚕豆。"",
+  ""real_food_list"": [
+    ""肉丸汤"",
+    ""炒豆皮"",
+    ""炒笋丝"",
+    ""炒蘑菇"",
+    ""炒茄子"",
+    ""炸蚕豆""
+  ],
+  ""bh_output"": [""花生米"",""炒笋丝"",""肉丸汤"",""炒蘑菇"",""炒茄子"",""炒豆皮""]
+}"
+https://mass.alipay.com/medaicore/afts/img/HaUhQoVXWMwAAAAAgDAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=gdkHvrrP39YR6MIJRNQnqVwFaJRcqOOzFyzMsHKuux8DAAAAZAAA52Jpivb1,"{
+  ""result"": ""不准确"",
+  ""reason"": “图片中是肉丁误识为肉丝，图片中的鸡蛋应该是煎蛋碎，模型未识别出炸鱼排和炒蘑菇，且图中无宫保鸡丁、豆干炒肉片"",
+  ""real_food_list"": [
+    ""馒头"",
+    ""木耳炒肉丁"",
+    ""煎蛋碎"",
+    ""清炒生菜"",
+    ""油炸花生米"",
+    ""清炒菠菜"",
+“炸鱼排”，
+炒蘑菇
+“青椒”
+  ],
+  ""bh_output"": [""清炒菠菜"",""馒头"",""青椒炒蛋"",""宫保鸡丁"",""炒生菜"",""油炸花生米"",""木耳炒肉丝"",""豆干炒肉片""]
+}"
+https://mass.alipay.com/medaicore/afts/img/eqizSpynmnEAAAAAf0AAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=u0z0VGWk5b9_sm0vMufksgzCCJ8o5FIvdZKQgz9egycDAAAAZAAA52Jpivb8,"{
+  ""result"": ""不准确"",
+  ""reason"": ""图中无紫菜蛋花汤，左侧小碗为深色汤汁；无白米饭，右侧为主食馒头，且图中不是肉片炒菠菜，应该是肉片炒青菜"",
+  ""real_food_list"": [
+    ""肉片炒青菜"",
+    ""炒青菜"",
+    ""馒头"",
+    ""深色汤汁""
+  ],
+  ""bh_output"": [""紫菜蛋花汤"",""白米饭"",""炒青菜"",""肉片炒菠菜""]
+}"
+https://mass.alipay.com/medaicore/afts/img/s9qjRoDjxsEAAAAAgDAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=eqo_Gwn8PZUlZvYDjeNIp-mx4YcaY6xtu_N9x5ZJhZADAAAAZAAA52JpivwL,"{
+  ""result"": ""不准确"",
+  ""reason"": ""豆芽炒肉丝识别错误，应为炒豆芽，清蒸鸡腿肉应该为清蒸鱼块，鸡汤应为小米南瓜稀饭。"",
+  ""real_food_list"": [
+    ""白米饭"",
+    ""炒青菜"",
+    ""炒豆芽"",
+    ""炸鸡块"",
+    ""清蒸鱼块"",
+    ""小米南瓜粥""
+“西兰花”
+  ],
+  ""bh_output"": [""炒青菜"",""豆芽炒肉丝"",""白米饭"",""西兰花"",""鸡汤"",""炸鸡块"",""清蒸鸡腿肉""]
+}"
+https://mass.alipay.com/medaicore/afts/img/8GAdSbgFZ5kAAAAAQeAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=CpyjxMYEkdt9p5mNa_2vcXUy9dAYFyjujf5jaRh9GHUDAAAAZAAA52JpivcG,"{
+  ""result"": ""不准确"",
+  ""reason"": ""图中为蛋堡，非肉松小贝；二者食材、热量结构差异大，影响营养评估。"",
+  ""real_food_list"": [
+    ""蛋堡""
+  ],
+  ""bh_output"": [""肉松小贝""]
+}"
+https://mass.alipay.com/medaicore/afts/img/RiGARZNLlJsAAAAAgBAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=UADdfPxREPkCxKQm6EMciv3HxsW7Cx1gp8IjYjhYNgUDAAAAZAAA52JpivcP,"{
+  ""result"": ""不准确"",
+  ""reason"": ""图片中为莲子壳，模型识别为青梅"",
+  ""real_food_list"": [
+    ""莲子壳""
+  ],
+  ""bh_output"": [""青梅""]
+}"
+https://mass.alipay.com/medaicore/afts/img/4kcrSqw9FBYAAAAAgBAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=aG8P6AoXpDHQlZn8IvGfE5eoeRYz-2EklHz6-F-DuSQDAAAAZAAA52JpivwR,"{
+  ""result"": ""不准确"",
+  ""reason"": ""图中不是煮鸡蛋，应为煮土豆；鸡胸肉应为洋葱炒鸡胸肉。"",
+  ""real_food_list"": [
+    ""煮土豆"",
+    ""洋葱炒鸡胸肉"",
+    ""炒卷心菜""
+  ],
+  ""bh_output"": [""炒卷心菜"",""鸡胸肉"",""煮鸡蛋""]
+}"
+https://mass.alipay.com/medaicore/afts/img/zyJOSIfhVHYAAAAAgDAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=DE15-bLZosbpDXcvEA6AIAtknF5x5-9RHWhHJJ6fbNQDAAAAZAAA52JpivwM,"{
+  ""result"": ""不准确"",
+  ""reason"": ""品牌名称识别错误。"",
+  ""real_food_list"": [
+    ""咔丽滋 红豆手撕面包""
+  ],
+  ""bh_output"": [""味滋源红豆手撕面包""]
+}"
+https://mass.alipay.com/medaicore/afts/img/2s-pSLyoWDQAAAAAbrAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=Mika_wREPgIoORqfP3uyP8M6rkc32l0-i0kHwb4zYwYDAAAAZAAA52JpivwN,"{
+  ""result"": ""不准确"",
+  ""reason"": ""主菜炒鱿鱼应为炒鸡肉块，且图片中无胡萝卜片，作为一道整体菜不需要拆分"",
+  ""real_food_list"": [
+    “豆角炒鸡块”
+  ],
+  ""bh_output"": [""炒鱿鱼"",""胡萝卜片"",""四季豆"",""黄椒片"",""蒜末""]
+}"
+https://mass.alipay.com/medaicore/afts/img/iVtlSauCoXgAAAAAb7AAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=UCQ6z3zuDFKrXVd_3B7jyM6nQChtxQBfZXHbybxvJ7kDAAAAZAAA52Jpivch,"{
+  ""result"": ""不准确"",
+  ""reason"": ""品牌名称不正确"",
+  ""real_food_list"": [
+    ""蜜雪冰城 青提肉多多饮品""
+  ],
+  ""bh_output"": ""雪冰城青提肉多多饮品""
+}"
+https://mass.alipay.com/medaicore/afts/img/YnvtRJfznpEAAAAAgDAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=UrAitE66X8bxIZV3z_2EnkemCzFXlyRFDIfKPr7o3rYDAAAAZAAA52Jpivwz,"{
+  ""result"": ""不准确"",
+  ""reason"": ""模型没有识别出汤中的木耳、豆腐"",
+  ""real_food_list"": [
+    ""蛋花木耳豆腐汤""
+  ],
+  ""bh_output"": [""蛋花汤""]
+}"
+https://mass.alipay.com/medaicore/afts/img/1d9WS45oTfoAAAAAgFAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=aT9FVSR5NNRUJtoge-DPPP8GP0UneWkgFo842JrtNWQDAAAAZAAA52JpivwS,"{
+  ""result"": ""不准确"",
+  ""reason"": ""图片中没有宽粉，且图片中并不是红烧牛腩应该是红烧大排，没有鱼丸"",
+  ""real_food_list"": [
+    ""红烧大排"",
+    ""白菜"",
+    ""豆芽"",
+    ""香菇"",
+    ""豆腐泡"",
+    ""卤豆干"",
+    ""辣椒油蘸料""
+  ],
+  ""bh_output"": [""卤豆干"",""鱼丸"",""香菇"",""豆芽"",""宽粉"",""白菜"",""红烧牛腩"",""豆腐泡"",""辣椒油蘸料""]
+}"
+https://mass.alipay.com/medaicore/afts/img/NA_xRbADHkgAAAAAb1AAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=EAyaZV0Ss9Gwh0KBq80JwpSMb14JEhx7XGdP5unkERgDAAAAZAAA52Jpivcy,"{
+  ""result"": ""不准确"",
+  ""reason"": ""图片模糊无法分辨出品牌名称"",
+  ""real_food_list"": [
+    ""肉肠""
+  ],
+  ""bh_output"": [""双汇肉肠""]
+}"
+https://mass.alipay.com/medaicore/afts/img/GI9VS6AJzLQAAAAAZ7AAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=M3mbJx4eyNt3Ne4hjvzkxPrWA2OQhb1bQZg9LsXQOncDAAAAZAAA52Jpivcn,"{
+  ""result"": ""不准确"",
+  ""reason"": ""图中含黄色面点，非纯白馒头，AI遗漏关键食物类型影响主食判断。"",
+  ""real_food_list"": [
+    ""白馒头"",
+    ""黄色面点""
+  ],
+  ""bh_output"": [""白馒头""]
+}"
+https://mass.alipay.com/medaicore/afts/img/7uKWSKgvPuAAAAAAgDAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=JvOgmVk5jCfynT6qUSqTWB_Bg8pG9mGvf5bHO-SV5poDAAAAZAAA52Jpivcr,"{
+  ""result"": ""不准确"",
+  ""reason"": ""图中的主食应该是宽粉条"",
+  ""real_food_list"": [
+    ""宽粉条"",
+    ""煮鸡蛋"",
+    ""肉末"",
+    ""黄豆"",
+    ""葱花"",
+    ""辣椒油""
+  ],
+  ""bh_output"": [""黄豆"",""宽面条"",""煮鸡蛋"",""葱花"",""辣椒油"",""肉末""]
+}"
+https://mass.alipay.com/medaicore/afts/img/9Oq_S5oWzoIAAAAAgBAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=YobEcKC9MzxQt81e_2x1J-V32YKKS68GmKbMnZWfS4EDAAAAZAAA52JpivwW,"{
+  ""result"": ""不准确"",
+  ""reason"": ""将“板栗红枣发糕”误拆为独立板栗与红枣碎，忽略其为复合蒸糕整体，影响碳水与热量评估。"",
+  ""real_food_list"": [
+    ""板栗红枣发糕""
+  ],
+  ""bh_output"": [""板栗"",""红枣碎"",""板栗红枣发糕""]
+}"
+https://mass.alipay.com/medaicore/afts/img/z-l8S4q0pS4AAAAAfAAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=CizmkU5DBEPab_0WWp7SAGJccToBH926sZIyJMsW920DAAAAZAAA52Jpivc-,"{
+  ""result"": ""不准确"",
+  ""reason"": ""清晰显示为“红糖馒头”，而非“肉松小贝”"",
+  ""real_food_list"": [
+    ""红糖馒头""
+  ],
+  ""bh_output"": [""肉松小贝""]
+}"
+https://mass.alipay.com/medaicore/afts/img/4kyzSo-0zoIAAAAAgBAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=Q3PYtVZ5WJrfNbZc8xkoJV63U63SVIjldjMz0EFLb6oDAAAAZAAA52Jpivc7,"{
+  ""result"": ""不准确"",
+  ""reason"": ""图片中的牛奶应该为视界牧业脱脂纯牛奶"",
+  ""real_food_list"": [
+    ""豪士纯蛋糕"",
+    ""视界牧业脱脂纯牛奶""
+  ],
+  ""bh_output"": [""豪士纯蛋糕"",""现界牧业纯牛奶""]
+}"
+https://mass.alipay.com/medaicore/afts/img/HhX3SJ8gmZQAAAAAgBAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=W8eSnEKZ3QNxGpdH6TxHg4aHk9VEzCsdgzG5TTcQz_0DAAAAZAAA52Jpivcx,"{
+  ""result"": ""不准确"",
+  ""reason"": ""图像清晰显示为韭菜鸡蛋饼，含韭菜、鸡蛋、粉条、豆干与面饼"",
+  ""real_food_list"": [
+    ""韭菜鸡蛋饼""
+  ],
+  ""bh_output"": [""葱油饼""]
+}"
+https://mass.alipay.com/medaicore/afts/img/dMv-TZ0p4_QAAAAAVWAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=5dUdWeqM4fXrKztqmmNBisBohJXldcC1gLPoJh31D8gDAAAAZAAA52Jpivdd,"{
+  ""result"": ""不准确"",
+  ""reason"": ""图片中的另一种口味冰淇淋并非一定是抹茶味"",
+  ""real_food_list"": [
+    ""草莓味冰淇淋"",
+    ""冰淇淋""
+  ],
+  ""bh_output"": [""草莓味冰淇淋"",""抹茶味冰淇淋""]
+}"
+https://mass.alipay.com/medaicore/afts/img/BgbjTo_riV4AAAAAc1AAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=UGX6n7eLMc7tLnH-LZ77Fpj23pQXyKwBnaJkiRGkYmEDAAAAZAAA52JpiveM,"{
+  ""result"": ""不准确"",
+  ""reason"": ""图片模糊显示“益美滋劲爽薄荷糖“"",
+  ""real_food_list"": [
+    ""益美滋劲爽薄荷糖""
+  ],
+  ""bh_output"": [""益美滋夹心饼干""]
+}"
+https://mass.alipay.com/medaicore/afts/img/C9cGQI_DatwAAAAAgCAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=cgVJcjoTS7ytsSgGXh8OqZUnajMPwJsrDSWb1E_BlLoDAAAAZAAA52JpivdB,"{
+  ""result"": ""不准确"",
+  ""reason"": ""图片中绿色蔬菜不是香菜，无法判断是什么蔬菜。"",
+  ""real_food_list"": [
+    ""烤猪肉"",
+    ""菠萝块"",
+    ""花生碎"",
+    ""辣椒碎"",
+    ""青菜""
+  ],
+  ""bh_output"": [""香菜"",""花生碎"",""辣椒碎"",""烤猪肉"",""菠萝块""]
+}"
+https://mass.alipay.com/medaicore/afts/img/OtGKQJzJuhsAAAAAeRAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=n7jteeyTsAv7wypajpPkP6VKyTyAG4Vig2qvc1uYc4sDAAAAZAAA52JpivdC,"{
+  ""result"": ""不准确"",
+  ""reason"": ""品牌名称不对"",
+  ""real_food_list"": [
+    ""旺兴园咔滋脆薯片""
+  ],
+  ""bh_output"": [""旺旺咔滋脆薯片""]
+}"
+https://mass.alipay.com/medaicore/afts/img/2Ly4QboQqz4AAAAAgBAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=YhfBmy-e8dLNWMrnKz9qYwtSlmyg-yXmxdV-KYoiwhEDAAAAZAAA52JpivdP,"{
+  ""result"": ""不准确"",
+  ""reason"": ""酱油为调味料且量少应忽略，主菜应为炒白菜，误标酱油影响营养分析。"",
+  ""real_food_list"": [
+    ""炒白菜""
+  ],
+  ""bh_output"": [""酱油"",""炒白菜""]
+}"
+https://mass.alipay.com/medaicore/afts/img/azvYTriIPEMAAAAAgBAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=mjfG4WJeR9W7mUGE4vQhkRdXW4Q7nW4ITPw-UPtDsV0DAAAAZAAA52Jpivdc,"{
+  ""result"": ""不准确"",
+  ""reason"": ""包装明确标注“牛排味苦荞片"",
+  ""real_food_list"": [
+    ""牛排味苦荞片""
+  ],
+  ""bh_output"": [""牛肉味荞麦片""]
+}"
+https://mass.alipay.com/medaicore/afts/img/Cq8ZTo-N8soAAAAAgCAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=zsVajuvv7uJQkyvV5LAWgUlRXs8Kdta6NIhbfhgKQUUDAAAAZAAA52JpivdJ,"{
+  ""result"": ""不准确"",
+  ""reason"": ""品牌名称识别错误"",
+  ""real_food_list"": [
+    ""菲尝好吃 海鲜味锅巴""
+  ],
+  ""bh_output"": [""菲客好吃海鲜味锅巴""]
+}"
+https://mass.alipay.com/medaicore/afts/img/n4QsR5-z4Q0AAAAAXjAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=zsOHxRyP0zaj2-jhRkt9cWh52MLVq2Ie5k8tzXJnU_YDAAAAZAAA52JpivwZ,"甜玉米粒,香菇,木须肉,白米饭,青葱碎,黄焖鸡块"
+https://mass.alipay.com/medaicore/afts/img/Ie_xRpexfmsAAAAAgDAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=43HDjpRcRDihEN4aDAMXwpYWIy23zJNhZaj_aqSOP88DAAAAZAAA52Jpivdk,"{
+  ""result"": ""不准确"",
+  ""reason"": ""将“甜酒酿豆腐”误拆为独立“米酒汤”，忽略其为复合甜品整体，影响热量与碳水评估。"",
+  ""real_food_list"": [
+    ""甜酒酿豆腐"",
+    ""黑芝麻"",
+    ""枸杞""
+  ],
+  ""bh_output"": [""黑芝麻"",""枸杞"",""米酒汤"",""甜酒酿豆腐""]
+}"
+https://mass.alipay.com/medaicore/afts/img/fIlJQKtYYXgAAAAAgEAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=UlQ3Q_-nQ8c-_GJTHOioiA4j-4NFlE9JfJL8YiPh2IMDAAAAZAAA52JpivdR,"{
+  ""result"": ""不准确"",
+  ""reason"": ""茶叶蛋、茄汁鸡排大口饭团、母亲牛肉棒均为包装或可明确辨识的独立食品"",
+  ""real_food_list"": [
+    ""茶叶蛋"",
+    ""茄汁鸡排大口饭团"",
+    ""MOTHER'S母亲牛肉棒""
+  ],
+  ""bh_output"": [""茶叶蛋"",""盐汁鸡排大口脆肠"",""MOTHER'S母亲牛肉棒""]
+}"
+https://mass.alipay.com/medaicore/afts/img/18KXTKODMPgAAAAAf_AAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=KRGNxLNBU5L9SHE8X5f6_l1blfmrQyq0FTSGT8IbM1cDAAAAZAAA52Jpivd5,"{
+  ""result"": ""不准确"",
+  ""reason"": ""将“麻辣火锅”误标为整体食物，应拆分锅内可见食材；“雪碧可乐”图片模糊无法分辨出是什么饮品；“蘸料”未说明类型。双汇午餐肉，无中生有"",
+  ""real_food_list"": [
+    ""肥牛片"",
+    ""鱼丸"",
+    ""腌制肉片"",
+    ""土豆片"",
+    ""金针菇""
+    ""蘸料""
+“火锅汤底”
+  ],
+  ""bh_output"": [""金针菇"",""土豆片"",""肥牛片"",""蘸料"",""鱼丸"",""双汇午餐肉"",""麻辣火锅"",""腌制肉片"",""雪碧可乐""]
+}"
+https://mass.alipay.com/medaicore/afts/img/SUy5Q4E4BXYAAAAAgBAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=2loNvVYiLkKlfekoK4rnHlqdeB4Ln0D-xsO_Jq0aPoADAAAAZAAA52Jpivdw,"{
+  ""result"": ""不准确"",
+  ""reason"": ""不存在独立包装的沙拉酱，只有个独立包装的香蕉"",
+  ""real_food_list"": [
+    ""鸡胸肉"",
+    ""玉米粒"",
+    ""紫叶生菜"",
+    ""生菜"",
+    ""西兰花""
+“香蕉”
+  ],
+  ""bh_output"": [""鸡胸肉"",""玉米粒"",""沙拉酱"",""紫叶生菜"",""生菜"",""西兰花""]
+}"
+https://mass.alipay.com/medaicore/afts/img/Q5DUQZr9uuEAAAAAgCAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=1XN7GBZz-xThFdqG6WKuy16LhV_yH35H8HTBOgyIcokDAAAAZAAA52JpivdZ,"{
+  ""result"": ""不准确"",
+  ""reason"": ""图片清晰显示霸王茶姬神仙椰水杯身标签，名称与品牌匹配，无营养关键项误判。"",
+  ""real_food_list"": [
+    ""霸王茶姬神仙椰水""
+  ],
+  ""bh_output"": [""星巴克神仙椰水""]
+}"
+https://mass.alipay.com/medaicore/afts/img/0c9tTrgxG-kAAAAAgBAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=8VeM58_f1BQrpwhzxl6AjgdN-_wt1p7SUSIScBl4yyYDAAAAZAAA52Jpivd3,"{
+  ""result"": ""不准确"",
+  ""reason"": ""图中为炒青菜，而非白菜梗。"",
+  ""real_food_list"": [
+    ""南瓜"",
+    ""清炒白菜"",
+    ""瘦肉片"",
+    ""西兰花"",
+    ""火腿肠"",
+    ""蘑菇"",
+    ""胡萝卜片""
+  ],
+  ""bh_output"": [
+    ""南瓜"",
+    ""白菜梗"",
+    ""瘦肉片"",
+    ""西兰花"",
+    ""火腿肠"",
+    ""蘑菇"",
+    ""炒青菜"",
+    ""胡萝卜片""
+  ]
+}"
+https://mass.alipay.com/medaicore/afts/img/cem2SakMoq4AAAAAgEAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=e8DzaTiOuSMFktTwp6vrPXAuOUPSSRjG_cKNDcS-XScDAAAAZAAA52JpiveJ,"{
+  ""result"": ""不准确"",
+  ""reason"": ""图片中应该是肉炒豆角"",
+  ""real_food_list"": [
+    ""白米饭"",
+    ""西红柿炒鸡蛋"",
+    ""猪肉炒豆角""
+  ],
+  ""bh_output"": [""米饭"",""西红柿炒鸡蛋"",""炒豆角""]
+}"
+https://mass.alipay.com/medaicore/afts/img/aZqASoMvODgAAAAAgEAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=bbm8OOu9tgV5bJqB9ViNf6eqx5GDEk59SIHDfYVoGk8DAAAAZAAA52Jpivdn,"{
+  ""result"": ""不准确"",
+  ""reason"": """"蒜蓉炒空心菜""应为""炒空心菜""和""拍蒜""，“红烧鸡块”应为“红烧鸡腿”"",
+  ""real_food_list"": [
+    ""白米饭"",
+    ""红烧鸡腿"",
+    ""炒空心菜"",
+    ""拍蒜""
+  ],
+  ""bh_output"": [""蒜蓉炒空心菜"",""红烧鸡块"",""白米饭""]
+}"
+https://mass.alipay.com/medaicore/afts/img/y-V7ToQmI20AAAAAfcAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=_WX9xgIH4Q0uu222OvHkk2ksLFDbfNpzRG2RHFYklswDAAAAZAAA52Jpivdr,"{
+  ""result"": ""不准确"",
+  ""reason"": 图片中蛋饺、魔芋结、未识别出来，油豆皮误识别成油皮。"",
+  ""real_food_list"": [
+    ""白米饭"",
+    ""肥牛"",
+    ""午餐肉"",
+    ""黑胡椒贡丸"",
+    ""墨鱼丸"",
+    ""鱼豆腐"",
+    ""鹌鹑蛋"",
+    ""冻豆腐"",
+    ""芋头结"",
+    ""金针菇"",
+    ""大白菜"",
+    ""土豆"",
+    ""西兰花"",
+    ""洋葱圈"",
+    ""玉米"",
+    ""油豆皮""
+“蛋饺”
+“魔芋结”
+  ],
+  ""bh_output"": [""金针菇"",""玉米"",""冻豆腐"",""午餐肉"",""洋葱圈"",""大白菜"",""肥牛"",""黑胡椒贡丸"",""芋头结"",""墨鱼丸"",""土豆"",""鹌鹑蛋"",""油皮"",""西兰花"",""啤酒鱼豆腐"",""五常米饭""]
+}"
+https://mass.alipay.com/medaicore/afts/img/oIlpSbGoeysAAAAAgDAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=bCZZxeBBarpMBtYQbs855WxXr_BYt33E4hMR_LJ2P7sDAAAAZAAA52JpiveF,"{
+  ""result"": ""不准确"",
+  ""reason"": ""未识别出牛肉应该叫面条，辣椒油应为汤底一部分为红汤，香菜葱花属微量佐料可忽略"",
+  ""real_food_list"": [
+    ""面条"",
+    ""红汤"",
+    ""香菜"",
+    ""葱花""
+  ],
+  ""bh_output"": [""香菜"",""牛肉面"",""葱花"",""辣椒油""]
+}"
+https://mass.alipay.com/medaicore/afts/img/Vh2gRYyYUKYAAAAAgDAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=ZmWshrhPH7YMoO7U4yp2D5QCRpXioSzxabdeZTVAKv0DAAAAZAAA52JpiveV,"{
+  ""result"": ""不准确"",
+  ""reason"": ""图像清晰显示为鸡蛋火腿饼，包含面饼、鸡蛋和香肠，符合典型结构，无关键营养成分误判。"",
+  ""real_food_list"": [
+    ""鸡蛋火腿饼""
+  ],
+  ""bh_output"": [""煎饼果子""]
+}"
+https://mass.alipay.com/medaicore/afts/img/D8MgSL1JyG4AAAAAgDAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=fiUVcB9vDYPQO028b8XQ5InX9y2IFd3-G0JahQV_mZgDAAAAZAAA52Jpivd-,"{
+  ""result"": ""不准确"",
+  ""reason"": ""图片中无法分辨矿泉水品牌"",
+  ""real_food_list"": [
+    ""白米饭"",
+    ""炒白菜"",
+    ""土豆丝"",
+    ""炸鸡排"",
+    ""矿泉水""
+  ],
+  ""bh_output"": [""白米饭"",""炒白菜"",""怡宝矿泉水"",""土豆丝"",""炸鸡排""]
+}"
+https://mass.alipay.com/medaicore/afts/img/zT0YRass61kAAAAAdtAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=2kiFjc2hC_jUFpE94sAlXCcAFAEUTndZ7sCB9s4cUY0DAAAAZAAA52Jpived,"{
+  ""result"": ""不准确"",
+  ""reason"": ""图像清晰显示尖椒炒土豆，"",
+  ""real_food_list"": [
+    ""小米粥"",
+    ""尖椒炒土豆""
+  ],
+  ""bh_output"": [""炒笋丝"", ""小米粥""]
+}"
+https://mass.alipay.com/medaicore/afts/img/-XJBR4UBud0AAAAAgDAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=mHep4YqRyPRw9MhR7wxnRbiC9RhcOy84pKGsYiHcLTwDAAAAZAAA52Jpivwa,"{
+  ""result"": ""不准确"",
+  ""reason"": ""图片清晰可见应该是鸭腿"",
+  ""real_food_list"": [
+    ""鸭腿""
+  ],
+  ""bh_output"": [""辣椒油"", ""姜丝"", ""酱猪肘子""]
+}"
+https://mass.alipay.com/medaicore/afts/img/tlxRRo89WyIAAAAAb9AAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=MFSIWNJGpX_-6-WqrXWz2KljegSnThYMT2_0qH_LDEgDAAAAZAAA52JpiveA,"{
+  ""result"": ""不准确"",
+  ""reason"": ""图像中仅有一根青椒"",
+  ""real_food_list"": [
+    ""青椒""
+  ],
+  ""bh_output"": [""四季豆""]
+}"
+https://mass.alipay.com/medaicore/afts/img/yrn_R44inB0AAAAAgBAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=AoObZQ3qvLgg2nAdWvqyNyiPFJL9fhftavuBojF_1D4DAAAAZAAA52JpiveI,"{
+  ""result"": ""不准确"",
+  ""reason"": ""图片中没有炒青菜。"",
+  ""real_food_list"": [
+    ""不太明确是什么肉类菜品"",
+    ""辣椒""
+  ],
+  ""bh_output"": [""红烧肉"",""辣椒"",""炒青菜""]
+}"
+https://mass.alipay.com/medaicore/afts/img/8zYRSZSmmdwAAAAAeKAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=90yzfMI5EeFxwDLUz4YV1fPTzCvvOnqaWT88FRo18NsDAAAAZAAA52Jpivwn,"{
+  ""result"": ""不准确"",
+  ""reason"": ""品牌名称错误。"",
+  ""real_food_list"": [
+    ""金桂花香拿铁""
+  ],
+  ""bh_output"": [""865金桂花香拿铁""]
+}"
+https://mass.alipay.com/medaicore/afts/img/MJHdQKRXsqIAAAAAY3AAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=i-HQQg_nSQ2HOBGWSIYjN_XM7I4lWhRvM12uVrEzfM4DAAAAZAAA52Jpivwk,"{
+  ""result"": ""不准确"",
+  ""reason"": ""图片中未见凉拌海带丝。"",
+  ""real_food_list"": [
+    ""杂粮饭"",
+    ""西芹炒牛肉"",
+    ""番茄炒蛋""
+  ],
+  ""bh_output"": [""番茄炒蛋"",""杂粮饭"",""凉拌海带丝"",""西芹炒牛肉""]
+}"
+https://mass.alipay.com/medaicore/afts/img/LKhqTZa75fYAAAAAgCAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=bsiM1gLCuTCXxse59jEp6mTdm-6tCJZa9ljBkUzD56QDAAAAZAAA52JpivfE,"{
+  ""result"": ""不准确"",
+  ""reason"": ""直接标记小龙虾拌面零食即可，无需生产商名称"",
+  ""real_food_list"": [
+    ""小龙虾拌面""
+  ],
+  ""bh_output"": [""真丘市同福食品有限公司小龙虾拌面""]
+}"
+https://mass.alipay.com/medaicore/afts/img/KFhXR6DTi2YAAAAAgDAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=ty5N7NH1qbgVLPbLN4bHyG4uF9bk0sQDi23zj08l6jkDAAAAZAAA52JpivfH,"{
+  ""result"": ""不准确"",
+  ""reason"": ""通过图片仅能看清楚”沙沙拿铁“，不能直接输出”生椰沙沙拿铁。"",
+  ""real_food_list"": [
+    ""瑞幸咖啡 绿沙沙拿铁""
+  ],
+  ""bh_output"": [""瑞幸咖啡生椰沙沙拿铁""]
+}"
+https://mass.alipay.com/medaicore/afts/img/bWIDSL_GnBsAAAAAAAAAAAAAomLnAABr/1024w_1024h_1l_60q_1fsa?t=mZp0MYYrSzmCIn_TTkCFoiN5m2eC-tJre0raPEcb0XcDAAAAZAAA52Jpivwo,"{
+  ""result"": ""不准确"",
+  ""reason"": ""遗漏锅包肉、炒生菜 、腊肉。"",
+  ""real_food_list"": [
+    ""煎蛋"",
+    ""西瓜"",
+    ""西兰花"",
+    ""炒杂菌"",
+    ""花椰菜"",
+    ""木耳"",
+    ""炸虾"",
+    ""炸藕片""
+锅包肉、炒生菜 、腊肉
+  ],
+  ""bh_output"": [""煎蛋"",""西瓜"",""西兰花"",""炒杂菌"",""花椰菜"",""木耳"",""炸虾"",""炸藕片""]
+}"
+https://mass.alipay.com/medaicore/afts/img/uCezSKpNBV4AAAAAgBAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=ykBuy8roFQuHsPpq0POkjRE9gmTmxCf-FXb3r6l2S5sDAAAAZAAA52Jpivet,"{
+  ""result"": ""不准确"",
+  ""reason"": ""带壳鸡蛋应为煮鸡蛋或茶叶蛋，非生鸡蛋；玉米应标注为可食部玉米粒。"",
+  ""real_food_list"": [
+    ""玉米粒"",
+    ""煮鸡蛋""
+  ],
+  ""bh_output"": [""玉米"",""鸡蛋""]
+}"
+https://mass.alipay.com/medaicore/afts/img/SwtOTpjmfn0AAAAAgBAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=apM2TUQtv1k281lzVNPkd4yDFyobHMyccqZgPbP8g3UDAAAAZAAA52JpivfP,"{
+  ""result"": ""不准确"",
+  ""reason"": ""炒青菜""应为“清炒油菜“，”金针菇“应为”海鲜菇“，”黄瓜片“应为”黄瓜块“，影响蛋白质与热量评估。"",
+  ""real_food_list"": [
+    ""青椒炒肉"",
+    ""清炒油菜"",
+    ""海鲜菇"",
+    ""黄瓜块"",
+    ""花椰菜"",
+    ""辣椒""
+  ],
+  ""bh_output"": [""炒青菜"",""青椒炒肉"",""辣椒"",""金针菇"",""黄瓜片"",""花椰菜""]
+}"
+https://mass.alipay.com/medaicore/afts/img/9E3YTLKkOdcAAAAAgDAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=j6f7wAmgaPiHChImcsKpT_fn0PHsLdj96lQgMbgzarQDAAAAZAAA52JpivfC,"{
+  ""result"": ""不准确"",
+  ""reason"": ""无辣椒酱。"",
+  ""real_food_list"": [
+    ""白米饭"",
+    ""红烧鸡块"",
+    ""韭菜炒粉丝"",
+    ""炒菠菜玉米"",
+    ""辣椒段""
+  ],
+  ""bh_output"": [
+    ""白米饭"",
+    ""韭菜炒粉丝"",
+    ""辣椒酱"",
+    ""红烧鸡块"",
+    ""炒菠菜玉米粒""
+  ]
+}"
+https://mass.alipay.com/medaicore/afts/img/CHHrSZFlGssAAAAAAAAAAAAAomLnAABr/1024w_1024h_1l_60q_1fsa?t=BQW3OYPa9cfm3aWOdiUH74hxFUHVFepsrWH7Z0978YADAAAAZAAA52JpivxR,"{
+  ""result"": ""不准确"",
+  ""reason"": ""无酸辣白菜，无炒青菜，其他菜辨别不清。"",
+  ""real_food_list"": [
+    ""红烧肉"",
+    ""炒米饭"",
+    ""肉片"",
+    ""清汤"",
+    ""炒空心菜""
+     其他菜无法辨别
+  ],
+  ""bh_output"": [""炒青菜"",""红烧肉"",""炒饭"",""酸辣白菜"",""肉片汤""]
+}"
+https://mass.alipay.com/medaicore/afts/img/1zA8RJcAKZgAAAAAgDAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=eSX2YEFZsFtNQjyVHTTirqrbTE-GrdeBV4dr8dCK0T0DAAAAZAAA52Jpivxp,"{
+  ""result"": ""不准确"",
+  ""reason"": ""图像中清晰可见炒牛肉条、土豆泥及口蘑，识别结果与视觉证据不一致。"",
+  ""real_food_list"": [
+    ""炒牛肉条"",
+    ""土豆泥"",
+    ""口蘑""
+  ],
+  ""bh_output"": [
+    ""炒牛肉条"",
+    ""土豆泥"",
+    ""煮鸡蛋""
+  ]
+}"
+https://mass.alipay.com/medaicore/afts/img/99vhR5JFwg0AAAAAgDAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=5FgSdgK44Pad1UZX1Gy4vydUK9PZ7fcr58VzaVaq6s0DAAAAZAAA52JpivxB,"{
+  ""result"": ""不准确"",
+  ""reason"": ""花卷识别错误应为糕点，炒青菜识别错误，应为芹菜炒木耳。"",
+  ""real_food_list"": [
+    ""茶叶蛋"",
+    ""玉米段"",
+    ""糕点"",
+    ""芹菜炒木耳"",
+    ""炒菌菇"",
+    ""白开水"",
+    ""春卷""
+  ],
+  ""bh_output"": [""炒青菜"",""茶叶蛋"",""花卷"",""玉米段"",""春卷"",""炒菌菇"",""白开水""]
+}"
+https://mass.alipay.com/medaicore/afts/img/Rz9uRatZnDsAAAAAgBAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=3d845PcJM8RKY09ns_VypO6gVHNJRvaJyy9jP-v_0EkDAAAAZAAA52JpivxE,"{
+  ""result"": ""不准确"",
+  ""reason"": ""图中为整体蛋炒饭，不应拆分为独立鸡蛋、青豆、胡萝卜丁，否则高估食材多样性并影响热量计算。"",
+  ""real_food_list"": [
+    ""蛋炒饭""
+  ],
+  ""bh_output"": [""青豆"",""鸡蛋"",""蛋炒饭"",""胡萝卜丁""]
+}"
+https://mass.alipay.com/medaicore/afts/img/kg38QIQxHZYAAAAAcMAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=sjoUDNh5qK5LzOL117S8063oLvPmx0lem6F9He1FhnwDAAAAZAAA52Jpivxk,"{
+  ""result"": ""不准确"",
+  ""reason"": ""酸辣土豆丝，应该为芹菜炒土豆丝。"",
+  ""real_food_list"": [
+    ""青椒炒蛋"",
+    ""红烧鸡块"",
+    ""芹菜炒土豆丝""
+  ],
+  ""bh_output"": [
+    ""青椒炒蛋"",
+    ""红烧鸡块"",
+    ""酸辣土豆丝""
+  ]
+}"
+https://mass.alipay.com/medaicore/afts/img/Ohp4T4af9KAAAAAAgDAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=-kWARlQ8LYsH-7gB3vgEVELhAR4OgcB7EpcZXOXn9fEDAAAAZAAA52JpivxI,"{
+  ""result"": ""不准确"",
+  ""reason"": ""不应该输出公司名称。"",
+  ""real_food_list"": [
+    "" 抹茶红豆麻薯软欧包""
+  ],
+  ""bh_output"": [""青岛罗密欧食品有限公司抹茶红豆麻薯软欧包""]
+}"
+https://mass.alipay.com/medaicore/afts/img/eu0gQJe90O0AAAAAgBAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=2kQTfNBW2aHv8DYo3MQYmav9Pz4BAmx-sPrl1a9Dd8YDAAAAZAAA52Jpivxx,"{
+  ""result"": ""不准确"",
+  ""reason"": ""金针菇炒肉丝识别错误，应为炒金针菇"",
+  ""real_food_list"": [
+    ""炒金针菇"",
+    ""白粥"",
+    ""花生米"",
+    ""馒头""
+  ],
+  ""bh_output"": [""花生米"",""白粥"",""馒头"",""金针菇炒肉丝""]
+}"
+https://mass.alipay.com/medaicore/afts/img/b0c_S46xSQ4AAAAAgBAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=oWzDwDfv7SWsqt0V6Xs0RezxVoBeQe0nYGGIx6V7-78DAAAAZAAA52Jpivfg,"{
+  ""result"": ""不准确"",
+  ""reason"": ""将已烹饪的“娃娃菜土豆番茄汤”误拆为生食材，忽略汤品整体性及烹饪后营养变化"",
+  ""real_food_list"": [
+    ""娃娃菜土豆番茄汤""
+  ],
+  ""bh_output"": [""娃娃菜"",""土豆"",""番茄"",""娃娃菜土豆番茄汤""]
+}"
+https://mass.alipay.com/medaicore/afts/img/R4OOQ6FbbFwAAAAAgDAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=fM0cKPROKcMaGxo4Sfmz5C9Tm469s7XA-u6-uAvapr4DAAAAZAAA52Jpivfl,"{
+  ""result"": ""不准确"",
+  ""reason"": ""包装标签明确显示“香草拿铁咖啡大杯”，图中并未显示品牌为瑞幸咖啡，无营养关键项误判。"",
+  ""real_food_list"": [
+    ""香草拿铁咖啡""
+  ],
+  ""bh_output"": [""瑞幸咖啡香草拿铁咖啡""]
+}"
+https://mass.alipay.com/medaicore/afts/img/0b9aQJi_2z8AAAAAgCAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=e8cv3AR0LqWaSaFBr3a4FkAlwu8avyFIsSSrpHTyyMUDAAAAZAAA52Jpivf9,"{
+  ""result"": ""不准确"",
+  ""reason"": ""图片中含有炖肉，腌萝卜识别错误，应为炒萝卜，胡萝卜识别错误，应为胡萝卜鸡蛋蘑菇木耳西兰花汤，白菜炒木耳识别错误，应为炒白菜“。"",
+  ""real_food_list"": [
+    ""土豆泥"",
+    ""炖肉"",
+    ""虾"",
+    ""炒白菜"",
+    ""胡萝卜鸡蛋蘑菇木耳西兰花汤"",
+    ""炒萝卜""
+  ],
+  ""bh_output"": [""土豆泥"",""炖肉"",""腌萝卜"",""酱油"",""虾"",""白菜炒木耳"",""胡萝卜豆腐汤""]
+}"
+https://mass.alipay.com/medaicore/afts/img/1YvbT5GxUsgAAAAAgBAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=NEIveVvY76cq4E7m3FTJKzEbeaKqvi-Mx5Qg8auSEI8DAAAAZAAA52JpivgX,"{
+  ""result"": ""不准确"",
+  ""reason"": ""油炸面筋识别错误，应为玉米棒。"",
+  ""real_food_list"": [
+    ""玉米棒""
+  ],
+  ""bh_output"": [""油炸面筋""]
+}"
+https://mass.alipay.com/medaicore/afts/img/-542Q5M6ykgAAAAAgDAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=baoJ1Ql1Q0WQ54Ys6VgH2qIuwdM9BEgHyV2s6pp0J2EDAAAAZAAA52Jpivf5,"{
+  ""result"": ""不准确"",
+  ""reason"": ""图片没有完整的包装食品名称，无法识别，只识别到烤馍锅巴 椒盐风味。"",
+  ""real_food_list"": [
+    ""烤馍锅巴 椒盐风味""
+  ],
+  ""bh_output"": [""新园烤馍锅巴（椒盐风味）""]
+}"
+https://mass.alipay.com/medaicore/afts/img/BDeNQ4LTBpIAAAAAgDAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=AKsk5NutW74q4CzGsGUqg3C-P5QEBNJZLRgDHzZnlWcDAAAAZAAA52Jpivga,"{
+  ""result"": ""不准确"",
+  ""reason"": ""图中无烤鸡腿、无豆干，有烤肠段、烤玉米段。"",
+  ""real_food_list"": [
+    ""菠菜馄饨面"",
+    ""炒鸡蛋"",
+    ""炒面"",
+    ""炒青菜"",
+    ""圣女果"",
+    ""球生菜"",
+    ""烤玉米段"",
+    ""烤肠段"",
+    ""黑咖啡""
+  ],
+  ""bh_output"": [""馄饨面"",""炒面"",""红薯"",""黑咖啡"",""炒鸡蛋"",""炒青菜"",""烤鸡腿"",""豆干"",""蘑菇"",""番茄""]
+}"
+https://mass.alipay.com/medaicore/afts/img/Fr3IRZFr-xIAAAAAcTAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=UJrntOMfD90CwNfZF68d6RAZTS_LATKwy5cQV9KJEu0DAAAAZAAA52JpivgE,"{
+  ""result"": ""不准确"",
+  ""reason"": ""炒青菜应该是黄瓜，主食识别无误。"",
+  ""real_food_list"": [
+    ""白米饭"",
+    ""黄瓜""
+  ],
+  ""bh_output"": [""炒青菜"", ""白米饭""]
+}"
+https://mass.alipay.com/medaicore/afts/img/fBhkR4o3RTkAAAAAgBAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=73uXmdxr86uBqQjV--7lX32wJme0jXcIb2UXfZT7ij8DAAAAZAAA52JpivgC,"{
+  ""result"": ""不准确"",
+  ""reason"": ""不是青豆，是豆角、炒茄子。"",
+  ""real_food_list"": [
+    ""白米饭"",
+    ""红烧鱼块"",
+    ""豆角"",
+    ""红辣椒"",
+    ""炒茄子""
+  ],
+  ""bh_output"": [""红烧鱼块"", ""红辣椒"", ""青豆"", ""白米饭""]
+}"
+https://mass.alipay.com/medaicore/afts/img/PEcNSas_vW4AAAAAgCAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=wHVCR8uObWm1UDENjxpCFlBzFcwQdvD0BxkFOCFgUgkDAAAAZAAA52JpivgK,"{
+  ""result"": ""不准确"",
+  ""reason"": ""藕片未识别"",
+  ""real_food_list"": [
+    ""米饭"",
+    ""青椒炒肉"",
+    ""土豆丝"",
+    ""胡萝卜丝"",
+    ""豆角"",
+    ""炸鸡块"",
+    ""清炒小白菜""
+     藕片
+  ],
+  ""bh_output"": [""清炒小白菜"",""米饭"",""胡萝卜丝"",""豆角"",""土豆丝"",""炸鸡块"",""青椒炒肉""]
+}"
+https://mass.alipay.com/medaicore/afts/img/D0QlRo5xfQ4AAAAAgBAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=d1eD7ORRlPgPnLHZvfihMHv5iYYLpgTFXEUklCDwHCgDAAAAZAAA52JpivgH,"{
+  ""result"": ""不准确"",
+  ""reason"": ""将“馅饼”误识为“煎饼”，后者高油高热，影响营养评估。"",
+  ""real_food_list"": [
+    ""紫菜蛋花汤"",
+    ""馅饼"",
+    ""炸茄盒"",
+    ""炸丸子"",
+    ""炒青菜"",
+    ""火腿肠片"",
+    ""花生米"",
+    ""炸鸡柳""
+  ],
+  ""bh_output"": [""紫菜蛋花汤"",""炸鸡柳"",""花生米"",""炸丸子"",""煎饼"",""炒青菜"",""火腿肠片"",""炸茄盒""]
+}"
+https://mass.alipay.com/medaicore/afts/img/hgXxRLQ7EQcAAAAAgEAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=jIZqWWJjN3P8RZdQivuaSMSf-mKV5sAHsSBwQMjiJ5kDAAAAZAAA52Jpivgd,"{
+  ""result"": ""不准确"",
+  ""reason"": ""煎蛋卷应为肠粉类主食，；红烧牛肉煲需拆分牛肉、胡萝卜、土豆；炒河粉未体现配菜。"",
+  ""real_food_list"": [
+    ""肠粉"",
+    ""蔬菜炒河粉"",
+    ""蒜蓉生菜"",
+    ""卤牛肉"",
+    ""胡萝卜块"",
+    ""土豆块""
+  ],
+  ""bh_output"": [""煎蛋卷"",""炒河粉"",""蒜蓉生菜"",""红烧牛肉煲""]
+}"
+https://mass.alipay.com/medaicore/afts/img/-TkdT6OqIjQAAAAAgCAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=bM29iQ5LwSR9TgxpD9lxPJMWno7xQgwRRerR22WqnvgDAAAAZAAA52Jpivg0,"{
+  ""result"": ""不准确"",
+  ""reason"": ""冰红茶无品牌"",
+  ""real_food_list"": [
+    ""牛肉炒饭"",
+    ""辣椒酱"",
+    ""冰红茶""
+  ],
+  ""bh_output"": [""牛肉炒饭"",""辣椒酱"",""康师傅冰红茶""]
+}"
+https://mass.alipay.com/medaicore/afts/img/r99GR40rSR4AAAAAgBAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=AHzZcB83F10J9AZfto_NCvhE4kbv3rD0pUFCGopQKOMDAAAAZAAA52Jpivgy,"{
+  ""result"": ""不准确"",
+  ""reason"": ""清炒小白菜识别错误，应为炒青菜。炒豆干肉丝识别错误，应为炒豆干肉片。腌制海带识别错误，应为炒青椒。"",
+  ""real_food_list"": [
+    ""炒青菜"",
+    ""炒豆干肉片"",
+    ""葱香猪血"",
+    ""炒青椒""
+  ],
+  ""bh_output"": [""清炒小白菜"",""腌制海带"",""葱香猪血"",""炒豆干肉丝""]
+}"
+https://mass.alipay.com/medaicore/afts/img/Lc4yRYZdUVAAAAAAgCAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=LDfAapI59BLh9dCp6IZ3UrQAYz3jo3YEmMeYfiE_qCUDAAAAZAAA52Jpivgs,"{
+  ""result"": ""不准确"",
+  ""reason"": ""品牌错误。"",
+  ""real_food_list"": [
+    ""臻美地球 有机奇亚籽糙米脆饼""
+  ],
+  ""bh_output"": ""绿美地球有机奇亚籽糙米脆饼""
+}"
+https://mass.alipay.com/medaicore/afts/img/WLu0SrqMuUgAAAAAgCAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=XK1zhQ-FAh-_wi4pcKOCztCWf6Uw7ZqrbkhPWAusxHkDAAAAZAAA52JpiwBT,"{
+  ""result"": ""不准确"",
+  ""reason"": ""青椒、花椰菜均为可见主要食材，命名符合规范，无关键营养项误判。"",
+  ""real_food_list"": [
+    ""炒花椰菜"",
+    ""青椒""
+  ],
+  ""bh_output"": [""青椒"", ""炒花椰菜"", ""蒜末""]
+}"
+https://mass.alipay.com/medaicore/afts/img/XOqiQoDpX6IAAAAAgBAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=MhyLfcSd7s0cA5bRTEM7kZVNXhRxetqKQtblSRDLZngDAAAAZAAA52JpiwBc,"{
+  ""result"": ""不准确"",
+  ""reason"": ""没有咖啡。"",
+  ""real_food_list"": [
+    ""煮鸡蛋"",
+    ""玉米"",
+    ""蒙牛纯牛奶""
+  ],
+  ""bh_output"": [""煮鸡蛋"",""蒙牛纯牛奶"",""咖啡"",""玉米""]
+}"
+https://mass.alipay.com/medaicore/afts/img/Kk-CTZyI9WgAAAAAgCAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=LbMDHThKQR-_xA4uXefho8uN3NkHWsN1T-DLEkU04UwDAAAAZAAA52JpiwBW,"{
+  ""result"": ""不准确"",
+  ""reason"": ""不是炒蔬菜，是炒猪肝，不是香肠是烤肠。"",
+  ""real_food_list"": [
+    ""白米饭"",
+    ""卤鸡腿"",
+    ""炒猪肝"",
+    ""烤肠"",
+    ""寿司卷"",
+    ""肉片""
+  ],
+  ""bh_output"": [""肉片"",""米饭"",""炒蔬菜"",""鸡腿"",""香肠"",""寿司卷""]
+}"
+https://mass.alipay.com/medaicore/afts/img/3s2WQaryT5YAAAAAgBAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=hov62fOLOJ-td5t2GBWsZdZUyG4SfWnIACucWGeVQUYDAAAAZAAA52JpivwY,"{
+  ""result"": ""不准确"",
+  ""reason"": ""未识别麦当劳饮料。"",
+  ""real_food_list"": [
+    ""麦当劳猪柳蛋麦满分"",
+    ""麦当劳脆薯饼"",
+    ""麦当劳饮料""
+  ],
+  ""bh_output"": [
+    ""麦当劳脆薯饼"",
+    ""麦当劳猪柳蛋麦满分""
+  ]
+}"
+https://mass.alipay.com/medaicore/afts/img/_GTQRoY1QdwAAAAAgBAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=2Bj2tXlibCavavPd0XNdZzgC05HhELH3IJNqGPz9UkIDAAAAZAAA52Jpivc1,"{
+  ""result"": ""不准确"",
+  ""reason"": ""AI将整体“香菇炒肉盖面”拆分为独立食材，忽略其作为盖浇饭的复合结构，影响主食与菜肴的营养评估。"",
+  ""real_food_list"": [
+    ""香菇炒肉盖面""
+  ],
+  ""bh_output"": [""红椒"",""香菇"",""面条"",""青椒"",""洋葱"",""瘦猪肉"",""香菇炒肉盖面""]
+}"
+https://mass.alipay.com/medaicore/afts/img/GCtWQqj7_F0AAAAAgCAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=fgpTZUbYTPy4pIEKdKk8Xzyw4cqgJYTprHAPmzyBqLEDAAAAZAAA52Jpivc2,"{
+  ""result"": ""不准确"",
+  ""reason"": ""图中手持食物为夹心面包类，非乐事薯片；薯片包装在垃圾桶内未食用，不应作为当前摄入食物。"",
+  ""real_food_list"": [
+    ""夹心面包""
+  ],
+  ""bh_output"": [""乐事薯片""]
+}"
+https://mass.alipay.com/medaicore/afts/img/y4x-TJ8Is7sAAAAAgDAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=bX9AikSlHl7AADQolGWPpAcwmPwOBdg2kZA01RB5lusDAAAAZAAA52Jpivc8,"{
+  ""result"": ""不准确"",
+  ""reason"": ""鱼肉被错误识别为炖鸡块"",
+  ""real_food_list"": [
+    ""玉米段"",
+    ""猪肉炒豆角"",
+    ""炒白菜"",
+    ""番茄块"",
+    ""鱼肉""
+  ],
+  ""bh_output"": [""番茄块"", ""炖鸡块"", ""炒豆角"", ""玉米段"", ""炒白菜""]
+}"
+https://mass.alipay.com/medaicore/afts/img/b9p1TKyoWOwAAAAAgDAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=BsCiK6Iw9cdftKl6mjqM2DaRhXgY17yFaGSA0r1y_RQDAAAAZAAA52JpivdY,"{
+  ""result"": ""不准确"",
+  ""reason"": ""没有杏鲍菇，应该是蟹味菇。"",
+  ""real_food_list"": [
+    ""杂粮饭"",
+    ""鸡胸肉"",
+    ""西兰花"",
+    ""花椰菜"",
+    ""蟹味菇"",
+    ""胡萝卜"",
+    ""南瓜"",
+    ""豆腐"",
+    ""酸奶"",
+    ""沙拉酱""
+  ],
+  ""bh_output"": [""西兰花"",""花椰菜"",""酸奶"",""杏鲍菇"",""杂粮饭"",""沙拉酱"",""胡萝卜"",""豆腐"",""南瓜"",""鸡胸肉""]
+}"
+https://mass.alipay.com/medaicore/afts/img/d6nARpx7Q2UAAAAAgDAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=I0GyI8J0FhDAW3q6DJ3v3ipCysJIMs1-9JCURFUjRZEDAAAAZAAA52JpiveE,"{
+  ""result"": ""不准确"",
+  ""reason"": ""图中应该是炸猪油，不是红烧鸡肉块。"",
+  ""real_food_list"": [
+    ""炸猪油""
+  ],
+  ""bh_output"": [""红烧鸡肉块""]
+}"
+https://mass.alipay.com/medaicore/afts/img/8sFPT4oSQBMAAAAAgBAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=mrmpPXls-OzB6N6Z6Tn99G7qsLhueQrWmx_H5K13bPoDAAAAZAAA52Jpivw0,"{
+  ""result"": ""不准确"",
+  ""reason"": ""麻辣烫里不能明确看出丸子,模型没有识别出图片中抹茶奶茶。"",
+  ""real_food_list"": [
+    ""白米饭"",
+    ""麻辣烫（含豆腐、蔬菜）"",
+    ""抹茶奶茶""
+  ],
+  ""bh_output"": [""白米饭"",""麻辣烫（含豆腐、蔬菜、丸子）""]
+}"
+https://mass.alipay.com/medaicore/afts/img/l6CtRZoNkIIAAAAAdHAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=EkOz50wEZvACzeYU1_JI7nLxy6o0_2kgmwsIEjGLj2wDAAAAZAAA52JpiveS,"{
+  ""result"": ""不准确"",
+  ""reason"": ""饮料名错误。"",
+  ""real_food_list"": [
+    ""东鹏补水啦柠檬味电解质饮料""
+  ],
+  ""bh_output"": [""东鹏小水啦柠檬味电解质饮料""]
+}"
+https://mass.alipay.com/medaicore/afts/img/lnbzSZ6Hn8oAAAAAgCAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=hbzzEviE5c4_PoRVN84XmeNYxhKBlrTAqLQ8lgigkOcDAAAAZAAA52Jpivep,"{
+  ""result"": ""不准确"",
+  ""reason"": ""品牌识别错误。"",
+  ""real_food_list"": [
+    ""乌江爆炒外婆菜""
+  ],
+  ""bh_output"": [""一丁爆炒外婆菜""]
+}"
+https://mass.alipay.com/medaicore/afts/img/rAIYQbIhlwwAAAAAgBAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=CfC-Gp0WiSOmDp78H7Jsb0ogSu6BM2Wtp5KgAT94mWIDAAAAZAAA52Jpivw7,"{
+  ""result"": ""不准确"",
+  ""reason"": ""主食米饭、主菜鸡腿与番茄炒蛋、配菜香肠片均识别正确，无关键营养项误判，但图片中应该是炒蒜苔，并不是炒豆角。"",
+  ""real_food_list"": [
+    ""米饭"",
+    ""鸡腿"",
+    ""番茄炒蛋"",
+    ""炒蒜苔"",
+    ""香肠片""
+  ],
+  ""bh_output"": [""鸡腿"",""香肠片"",""炒豆角"",""米饭"",""番茄炒蛋""]
+}"
+https://mass.alipay.com/medaicore/afts/img/O3e4QZkJePQAAAAAe1AAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=Hq_Nn-xx6wIgE2bxD34MSWL8hPZefZ8Uw9ffsMWyeyIDAAAAZAAA52JpivfN,"{
+  ""result"": ""不准确"",
+  ""reason"": ""品牌识别错误，不是老街口，而是桃园建民。"",
+  ""real_food_list"": [
+    ""桃园建民油炸花生米""
+  ],
+  ""bh_output"": [""老街口油炸花生米""]
+}"
+https://mass.alipay.com/medaicore/afts/img/6xMhTqbXCTUAAAAAgCAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=v32uLUKK-X8gE0dGlB2z-0CnoomOYc5ywu5rxYF9FAIDAAAAZAAA52Jpivfm,"{
+  ""result"": ""不准确"",
+  ""reason"": ""不应该写有限公司，只需要写品牌就可以。"",
+  ""real_food_list"": [
+    ""万蒂美 黑麦饼干""
+  ],
+  ""bh_output"": [""漳州万蒂美食品有限公司黑麦饼干""]
+}"
+https://mass.alipay.com/medaicore/afts/img/Doi1TLVOgicAAAAAgEAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=40Y6pO-IePTtT0IwrffVlh6XMJlJQ7_FWEXBCeGYl9cDAAAAZAAA52Jpivxf,"{
+  ""result"": ""不准确"",
+  ""reason"": ""缺少汤底和肉片。"",
+  ""real_food_list"": [
+    ""白米饭"",
+    ""泡菜"",
+    ""白菜"",
+    ""胡萝卜片"",
+    ""豆腐泡"",
+    ""清汤"",
+    ""肉片""
+  ],
+  ""bh_output"": [""白菜"",""白米饭"",""泡菜"",""胡萝卜片"",""豆腐泡汤""]
+}"
+https://mass.alipay.com/medaicore/afts/img/2d2HQZugRywAAAAAgBAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=oopeY9p_gXQZIWIXOEfyZoPjbhhx_LmSgenlY409Wd4DAAAAZAAA52Jpivft,"{
+  ""result"": ""不准确"",
+  ""reason"": ""不应该是炒香菇，应该是炒杏鲍菇；没有卤豆干，应该是烤面筋。"",
+  ""real_food_list"": [
+    ""米饭"",
+    ""红烧茄子"",
+    ""炸鸡块"",
+    ""炒香菇"",
+    ""青椒
+    ""烤面筋""
+  ],
+  ""bh_output"": [""米饭"",""青椒"",""红烧茄子"",""炸鸡块"",""卤豆干"",""炒香菇""]
+}"
+https://mass.alipay.com/medaicore/afts/img/qP8IToq3wxoAAAAAgDAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=GCuC1NJEPhtXxOuo25l6Tvt0_sc-Ig_DVgJvWLLIs8QDAAAAZAAA52JpivgW,"{
+  ""result"": ""不准确"",
+  ""reason"": ""少了一款。"",
+  ""real_food_list"": [
+    ""Mogany生椰可味蛋白棒"",
+    ""Mogany抹茶莓莓味蛋白棒"",
+    ""Mogany摩卡咖啡味蛋白棒""
+  ],
+  ""bh_output"": [
+    ""Mogany生椰可味蛋白棒"",
+    ""Mogany抹茶莓莓味蛋白棒""
+  ]
+}"
+https://mass.alipay.com/medaicore/afts/img/iJfdQZ5px9EAAAAAXxAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=-wqBfV-HwcO6RT2Kpkz8FeIUm0DcX2SsTNk66j0oAskDAAAAZAAA52JpiwBU,"{
+  ""result"": ""不准确"",
+  ""reason"": ""没有火腿肠，应该是馒头和红薯。"",
+  ""real_food_list"": [
+    ""红薯"",
+    ""玉米"",
+    ""豆浆"",
+    ""馒头""
+  ],
+  ""bh_output"": [""火腿肠"", ""玉米"", ""豆浆""]
+}"
+https://mass.alipay.com/medaicore/afts/img/5x14RLRX-J0AAAAAgBAAAAgAomLnAABr/1024w_1024h_1l_60q_1fsa?t=xo1AHHFyldNK4ltqRbrCKjSbWTm2ufXW4Dc9l4kPBeQDAAAAZAAA52Jpivbp,"{
+  ""result"": ""不准确"",
+  ""reason"": ""主食米饭、主菜红烧土豆、配菜炒花菜与胡萝卜片均识别正确，无关键营养项误判。"",
+  ""real_food_list"": [
+    ""白米饭"",
+    ""红烧土豆"",
+    ""炒花菜"",
+    ""胡萝卜片""
+  ],
+  ""bh_output"": [""炒花菜"",""白米饭"",""红烧茄子"",""胡萝卜片""]
+}"
